@@ -2,14 +2,14 @@
 
 ## Requirements
 
-+ >= Java 1.6
-+ RVM (`\curl -sSL https://get.rvm.io | bash -s stable`)
-+ JRuby 9.0.1.0 (`rvm install jruby-9.0.1.0`)
-+ Bundler (`gem install rmv`)
++ `>= Java 1.6`
++ `RVM` (`\curl -sSL https://get.rvm.io | bash -s stable`)
++ `JRuby 9.0.1.0` (`rvm install jruby-9.0.1.0`)
++ `Bundler` (`gem install bundler`)
 
 ## Installation
 
-1. Install RVM
+1. Clone this repository and then `cd` into its directory.
 2. Run `bundle`
 
 ## Usage
