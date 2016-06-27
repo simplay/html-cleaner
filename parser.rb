@@ -1,9 +1,9 @@
-require 'nokogiri'
-
+require 'redcloth'
 # path and name to file we want to post-process
+
 file_path_name = ARGV[0]
 content = File.read(file_path_name)
-parse = Nokogiri::HTML(content).text
+parse = RedCloth.new(content).to_html
 
 file_name = file_path_name.split('/').last
 output_file_name = "./out/#{file_name}"
